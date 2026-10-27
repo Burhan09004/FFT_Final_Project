@@ -1,0 +1,25 @@
+.auth-divider {
+  margin: 1.5rem 0;
+}
+
+.auth-divider::before {
+  background: var(--gc-line, #e7e4da);
+}
+
+.auth-divider .auth-register-prompt {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 1rem;
+  background: var(--gc-paper, #fffefb);
+  color: var(--gc-ink, #24251f);
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.auth-divider .auth-register-prompt:hover {
+  color: #776300;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
